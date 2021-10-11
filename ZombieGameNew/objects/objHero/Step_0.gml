@@ -13,4 +13,6 @@ keyShift = keyboard_check(vk_shift)
 inputDirection = point_direction(0, 0, keyRight-keyLeft, keyDown-keyUp)
 inputMagnitude = (keyRight - keyLeft != 0) or (keyDown - keyUp != 0)
 
-script_execute(StateFree)
+if (!global.gamePaused) {
+	script_execute(StateFree)
+}
