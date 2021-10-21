@@ -36,7 +36,7 @@ var indexCheck = sprite_index
 
 if (inputMagnitude != 0) {
 	direction = inputDirection
-	sprite_index = sprHeroRun
+	sprite_index = sprKnight
 } else {
 	sprite_index = sprHero
 }
@@ -59,4 +59,34 @@ if (localFrame >= frames) {
 } else {
 	animationEnd = false	
 }
+
+//Interactions 
+if (keyE) {
+	//Entity Check
+	var lengthx = lengthdir_x(25, direction)
+	var lengthy = lengthdir_y(25, direction)
+	current = instance_position(x+lengthx, y+lengthy, objEntity)
+	
+	//Run Script 
+	if (current == noone or current.entScript == -1) {
+			
+	} else {
+		show_debug_message("--------------------")
+		show_debug_message(current.entVars)
+		show_debug_message("--------------------")
+		script_execute(ArrayScript, current.entScript, current.entVars)
+		
+		//NPC Movement
+		if (current.entNPC) {
+			with (current) {
+				direction = point_direction(x, y, other.x, other.y)	
+				image_index = round(direction/90)
+			}
+		}
+	}
+	
+
+	
+}
+
 }
