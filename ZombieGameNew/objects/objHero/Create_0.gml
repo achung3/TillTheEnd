@@ -8,3 +8,6 @@ walkSpeed = 4
 spiteIdle = sprHero
 spriteRun = sprHeroRun
 localFrame = 0
+
+state = StateFree
+lastState = state

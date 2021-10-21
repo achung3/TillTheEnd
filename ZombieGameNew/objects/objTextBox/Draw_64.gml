@@ -9,6 +9,19 @@ draw_set_color(c_black)
 
 var print = string_copy(text, 1, textProg)
 
+if (replies[0] != -1) and (textProg >= string_length(text)) {
+	for (var i=0; i<array_length_1d(replies); i++) {
+		print += "\n"	
+		if (i == replySelect) {
+			print += "-> "	
+		}
+		print += replies[i]
+		if (i == replySelect) {
+			print += " <-"	
+		}
+	}
+}
+
 draw_text((x1+x2)/2, y1+25, print)
 draw_set_color(c_white)
 draw_text((x1+x2)/2, y1+24, print)

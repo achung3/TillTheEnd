@@ -7,12 +7,15 @@ keyLeft = keyboard_check(vk_left) or keyboard_check(ord("A"))
 keyRight = keyboard_check(vk_right) or keyboard_check(ord("D"))
 keySpace = keyboard_check(vk_space)
 keyShift = keyboard_check(vk_shift)
-//keyControl = keyboard_check(vk_control)
+keyE = keyboard_check(ord("E"))
 
 //Angle Math
 inputDirection = point_direction(0, 0, keyRight-keyLeft, keyDown-keyUp)
 inputMagnitude = (keyRight - keyLeft != 0) or (keyDown - keyUp != 0)
 
 if (!global.gamePaused) {
-	script_execute(StateFree)
+	script_execute(state)
 }
+
+//Depth
+depth = -bbox_bottom
