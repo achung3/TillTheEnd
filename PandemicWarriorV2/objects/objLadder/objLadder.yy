@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "sprAcid",
-    "path": "sprites/sprAcid/sprAcid.yy",
+    "name": "sprLadder",
+    "path": "sprites/sprLadder/sprLadder.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -28,7 +28,7 @@
     "path": "folders/Objects/InteractionBlocks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objAcid",
+  "name": "objLadder",
   "tags": [],
   "resourceType": "GMObject",
 }

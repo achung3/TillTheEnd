@@ -4,4 +4,7 @@
 show_debug_message("Message----")
 show_debug_message(message)
 
+objknight.state = KnightPause
+script_execute(objknight.state)
+
 script_execute(CreateTextBox, sprTextBox, x, y, message)

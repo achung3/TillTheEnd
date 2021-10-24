@@ -7,8 +7,8 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_left": 13,
+  "bbox_right": 19,
   "bbox_top": 0,
   "bbox_bottom": 31,
   "HTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6bcd32ad-bb99-4882-a07e-74b918ed221a","path":"sprites/sprblock/sprblock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6bcd32ad-bb99-4882-a07e-74b918ed221a","path":"sprites/sprblock/sprblock.yy",},"LayerId":{"name":"f7c8f970-7d47-4fd7-89d3-fc675e650093","path":"sprites/sprblock/sprblock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprblock","path":"sprites/sprblock/sprblock.yy",},"resourceVersion":"1.0","name":"6bcd32ad-bb99-4882-a07e-74b918ed221a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"52f1a37c-bab6-48d6-8778-98aa2daec3c7","path":"sprites/sprLadder/sprLadder.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"52f1a37c-bab6-48d6-8778-98aa2daec3c7","path":"sprites/sprLadder/sprLadder.yy",},"LayerId":{"name":"11c79c14-c024-4fdb-854a-8624afb1fb93","path":"sprites/sprLadder/sprLadder.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprLadder","path":"sprites/sprLadder/sprLadder.yy",},"resourceVersion":"1.0","name":"52f1a37c-bab6-48d6-8778-98aa2daec3c7","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprblock","path":"sprites/sprblock/sprblock.yy",},
+    "spriteId": {"name":"sprLadder","path":"sprites/sprLadder/sprLadder.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"92608fc6-e02f-4284-8983-b315300c4623","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6bcd32ad-bb99-4882-a07e-74b918ed221a","path":"sprites/sprblock/sprblock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0854604c-56ab-4f78-a382-be7859038c44","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"52f1a37c-bab6-48d6-8778-98aa2daec3c7","path":"sprites/sprLadder/sprLadder.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprblock","path":"sprites/sprblock/sprblock.yy",},
+    "parent": {"name":"sprLadder","path":"sprites/sprLadder/sprLadder.yy",},
     "resourceVersion": "1.3",
-    "name": "sprblock",
+    "name": "sprLadder",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f7c8f970-7d47-4fd7-89d3-fc675e650093","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"11c79c14-c024-4fdb-854a-8624afb1fb93","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Blocks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sprblock",
+  "name": "sprLadder",
   "tags": [],
   "resourceType": "GMSprite",
 }
