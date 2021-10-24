@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprAcid",
-    "path": "sprites/sprAcid/sprAcid.yy",
+    "name": "sprMarker",
+    "path": "sprites/sprMarker/sprMarker.yy",
   },
   "solid": false,
   "visible": false,
@@ -28,7 +28,7 @@
     "path": "folders/Objects/InteractionBlocks.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objAcid",
+  "name": "objMarker",
   "tags": [],
   "resourceType": "GMObject",
 }
