@@ -8,8 +8,6 @@ if (keyboard_check(vk_up) || (keyboard_check(vk_down))) {
 	sprite_index = sprClimb
 	objknight.state = KnightClimb
 	script_execute(objknight.state)
-	
-	
 } else {
 	sprite_index = sprknight
 	objknight.state = KnightMove

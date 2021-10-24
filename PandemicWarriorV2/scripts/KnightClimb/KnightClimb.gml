@@ -4,6 +4,7 @@ function KnightClimb(){
 	vspeed = 0
 	gravity = 0
 	sprite_index = sprClimb
+	move_speed = 4
 	
 	if (keyboard_check(vk_up)){
 		y += -climbSpeed
@@ -13,15 +14,6 @@ function KnightClimb(){
 		y += climbSpeed
 	}
 	
-	if (keyboard_check(vk_left) and !instance_place(x-move_speed, y, objblock)) {
-		x += -move_speed;
-		image_xscale = 1;
-	}
-
-	if (keyboard_check(vk_right) and !instance_place(x+move_speed, y, objblock)) {
-		x += move_speed;
-		image_xscale =- 1;
-	}
 	
 	if (instance_place(x, y+1+sprite_yoffset, objblock)) {
 		//climbing = false
