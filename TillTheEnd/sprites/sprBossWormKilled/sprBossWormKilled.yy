@@ -89,8 +89,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "BossWorm",
-    "path": "folders/Sprites/Enemies/BossWorm.yy",
+    "name": "Boss",
+    "path": "folders/Sprites/Enemies/Boss.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprBossWormKilled",
