@@ -8,7 +8,7 @@ if (is_on_ladder)
 }
 else if (!is_on_ground) //if it's not a collision
 {
-	sprite_index = sprPlayerJumping;
+	sprite_index = sprJumping;
 	image_speed = 0; //don't animate
 	
 	if sign(vSpeed > 0) //moving down and -ve for up
@@ -21,14 +21,16 @@ else //touching the ground
 	image_speed = 1;
 	if (hSpeed == 0) //collided with wall
 	{
-		sprite_index = sprPlayerIdle;
+		sprite_index = sprStanding;
 	}
 	else 
 	{ 
 		if keyLeft	image_xscale = 1;
 		else if keyRight image_xscale = -1;
 		
-		sprite_index = sprPlayerRunning;
+		sprite_index = sprKnightWalking;
 	}
-}	
+}
+
+	
 }
