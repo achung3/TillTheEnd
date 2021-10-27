@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprDeathCollider",
-    "path": "sprites/sprDeathCollider/sprDeathCollider.yy",
+    "name": "sprGameStart",
+    "path": "sprites/sprGameStart/sprGameStart.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,15 +20,19 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":1,"eventType":5,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [
+    {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"RoomNo","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objAcid",
+  "name": "objGameStart",
   "tags": [],
   "resourceType": "GMObject",
 }

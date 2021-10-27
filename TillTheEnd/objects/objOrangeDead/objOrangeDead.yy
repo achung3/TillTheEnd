@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprDeathCollider",
-    "path": "sprites/sprDeathCollider/sprDeathCollider.yy",
+    "name": "sprOrangeDead",
+    "path": "sprites/sprOrangeDead/sprOrangeDead.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objAcid",
+  "name": "objOrangeDead",
   "tags": [],
   "resourceType": "GMObject",
 }

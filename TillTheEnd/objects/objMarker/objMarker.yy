@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "sprDeathCollider",
-    "path": "sprites/sprDeathCollider/sprDeathCollider.yy",
+    "name": "sprMarker",
+    "path": "sprites/sprMarker/sprMarker.yy",
   },
-  "solid": false,
-  "visible": true,
+  "solid": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objAcid",
+  "name": "objMarker",
   "tags": [],
   "resourceType": "GMObject",
 }

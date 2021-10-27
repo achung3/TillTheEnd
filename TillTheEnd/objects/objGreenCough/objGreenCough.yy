@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "objEnemyOrange",
+    "path": "objects/objEnemyOrange/objEnemyOrange.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
