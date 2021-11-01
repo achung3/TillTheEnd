@@ -10,7 +10,6 @@ How to run our game:
     - For testing purpose we added going to other rooms. These are located in objCommand.
         - 3: level 2
         - 4: level 3 - Vax vs Final Boss
-    - P: Pause
     - once the game ends
         - G: restart the game
         - H: end game
