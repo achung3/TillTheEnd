@@ -26,3 +26,10 @@ These are located in objHUD
 - Alt+N to move to the next room... for mac you need to do Alt+Shift+N
 - Alt+P to move to the previous room
 
+Instructions
+Up: move up
+Down: move down
+Left: move left
+Right: move right
+Z: sword 
+
