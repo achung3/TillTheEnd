@@ -27,9 +27,9 @@ These are located in objHUD
 - Alt+P to move to the previous room
 
 Instructions
-Up: move up
-Down: move down
-Left: move left
-Right: move right
-Z: sword 
+- Up: move up
+- Down: move down
+- Left: move left
+- Right: move right
+- Z: sword 
 
