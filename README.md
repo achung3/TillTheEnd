@@ -5,6 +5,7 @@ How to run our game:
 3. Import the .yyz file
 4. Now run (F5)
 5. Press:
+    - 0: Pause
     - 1: To start the game, level 1
     - 2: To look at the instrctions
     - For testing purpose we added going to other rooms. These are located in objCommand.
