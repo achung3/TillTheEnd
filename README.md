@@ -21,10 +21,10 @@ Cheat Codes
 These are located in objHUD
 - Alt+R: restart the room 
 - Alt+G: restart the game
-- Alt+L to increase lives by 5
-- Alt+S to gain 5p
-- Alt+N to move to the next room... for mac you need to do Alt+Shift+N
-- Alt+P to move to the previous room
+- Alt+L: to increase lives by 4 and health to 100
+- Alt+S: to gain 5p
+- Alt+N: to move to the next room... for mac you need to do Alt+Shift+N
+- Alt+P: to move to the previous room
 
 Instructions
 - Up: move up
@@ -32,4 +32,5 @@ Instructions
 - Left: move left
 - Right: move right
 - Z: sword 
+- Space: shoot vaccine, up to 10
 
